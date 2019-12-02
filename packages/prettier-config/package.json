@@ -1,0 +1,20 @@
+{
+  "name": "@clanaid/prettier-config",
+  "version": "1.0.0",
+  "description": "self-use prettier config template",
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "author": "clanaid <liang6590@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clanaid/common-config/tree/master/packages/prettier-config"
+  },
+  "homepage": "https://github.com/clanaid/common-config/tree/master/packages/prettier-config",
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  }
+}

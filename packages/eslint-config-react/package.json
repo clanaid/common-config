@@ -1,0 +1,21 @@
+{
+  "name": "@clanaid/eslint-config-react",
+  "version": "1.0.0",
+  "description": "self-use eslint config template for react",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "clanaid <liang6590@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.8.0",
+    "@typescript-eslint/parser": "^2.8.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.1"
+  }
+}

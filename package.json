@@ -1,0 +1,12 @@
+{
+  "name": "@clanaid/common-config",
+  "private": true,
+  "devDependencies": {
+    "father-build": "^1.16.0",
+    "lerna": "^3.16.4"
+  },
+  "scripts": {
+    "build": "father-build",
+    "bootstrap": "lerna bootstrap"
+  }
+}
