@@ -1,6 +1,6 @@
 {
   "name": "@clanaid/eslint-config-react",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "self-use eslint config template for react",
   "keywords": [
     "eslint"
