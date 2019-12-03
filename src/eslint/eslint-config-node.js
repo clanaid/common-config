@@ -1,21 +1,11 @@
 import globalRule from "./rules/global";
+import base from "./base";
 
 module.exports = {
-  parser: "babel-eslint",
-  extends: [
-    "airbnb-base",
-    "airbnb-typescript/base",
-    "prettier",
-    "prettier/@typescript-eslint"
-  ],
-  plugins: ["prettier"],
-  env: {
-    node: true,
-    es6: true,
-    mocha: true,
-    jest: true,
-    jasmine: true
-  },
+  parser: base.parser,
+  extends: ["airbnb-base", "airbnb-typescript/base", ...base.extends],
+  plugins: base.plugins,
+  env: base.env,
   overrides: [
     {
       files: ["**/*.ts"],

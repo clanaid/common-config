@@ -4,36 +4,40 @@
 
 ## Use
 
-### for node project
-
-#### install
+### install
 
 ```bash
 yarn add https://github.com/clanaid/common-config/tree/master/packages/eslint-config-node
 ```
 
+#### for node project
+
 in `.eslintrc.js`
 
 ```js
 module.exports = {
-    extends:[@clanaid/node]
+    extends:[@clanaid/common-config/lib/eslint/eslint-config-node]
 }
 ```
 
-### prettier
+#### for react project
 
-#### install
+in `.eslintrc.js`
 
-```bash
-yarn add https://github.com/clanaid/common-config/tree/master/packages/prettier-config
+```js
+module.exports = {
+    extends:[@clanaid/common-config/lib/eslint/eslint-config-react]
+}
 ```
+
+#### prettier
 
 in `.prettierrc.js`
 
 ```js
-const pconfig = require("@clanaid/prettier-config");
+const { prettier } = require("@clanaid/common-config");
 
 module.exports = {
-  ...pconfig
+  ...prettier
 };
 ```

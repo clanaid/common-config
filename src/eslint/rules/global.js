@@ -55,7 +55,7 @@ export default {
   "object-curly-newline": 0,
   "implicit-arrow-linebreak": 0,
   "operator-linebreak": 0,
-  "eslint-comments/no-unlimited-disable": 1,
+  "eslint-comments/no-unused-disable": "error",
   "no-param-reassign": 1,
   "space-before-function-paren": 0
 };
