@@ -1,5 +1,6 @@
 {
   "name": "@clanaid/common-config",
+  "version": "1.0.0",
   "devDependencies": {
     "father-build": "^1.16.0"
   },
